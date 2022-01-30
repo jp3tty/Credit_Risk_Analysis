@@ -9,20 +9,44 @@ The datas "loan status" was used from the "LoanStats_2019Q1" dataset to train a 
 
 ### Naive Random Oversampling
 
+![CM_NaiveRandomOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_NaiveRandomOversample.PNG)
+
+![ClassReport_NaiveRandomOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_NaiveRandomOversample.PNG)
+
 
 ### SMOTE Oversampling
+
+![CM_SMOTEOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_SMOTE_Oversampling.PNG)
+
+![ClassReport_SMOTEOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_SMOTE_Oversampling.PNG)
 
 
 ### Undersampling
 
+![CM_Undersampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_Undersampling.PNG)
+
+![ClassReport_Undersampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassRepot_Undersampling.PNG)
+
 
 ### Combination Sampling
+
+![CM_CombinationSampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_Combined.PNG)
+
+![ClassReport_CombinationSampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_Combined.PNG)
 
 
 ### Balanced Random Forest Classifier
 
+![CM_BRFC](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_BalancedRandomForestClassifier.PNG)
+
+![ClassReport_BRFC](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassRepot_BalancedRandomForestClassifier.PNG)
+
 
 ### Easy Ensemble AdaBoost Classifier
+
+![CM_EEAC](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_EasyEnsembleAdaBoostClassifier.PNG)
+
+![ClassReport_EEAC](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_EasyEnsembleAdaBoostClassifier.PNG)
 
 
 
