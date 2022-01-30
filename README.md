@@ -17,6 +17,10 @@ Naive random oversampling confusion matrix:
 Naive random oversampling classification report:
 ![ClassReport_NaiveRandomOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_NaiveRandomOversample.PNG)
 
+The report shows:
+* High risk precision of 1% with a recall of 66%, giving this model an F1 score of 2%.
+* Low risk precision of 100% and a recall of 62%.
+
 
 ### SMOTE Oversampling
 
@@ -27,6 +31,11 @@ SMOTE oversampling confusion matrix:
 
 SMOTE oversampling classification report:
 ![ClassReport_SMOTEOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_SMOTE_Oversampling.PNG)
+
+The report shows:
+* High risk precision of 1% with a recall of 61%, giving this model an F1 score of 2%.
+* Low risk precision of 100% and a recall of 69%.
+
 
 
 ### Undersampling
@@ -39,6 +48,9 @@ Undersampling confusion matrix:
 Undersampling classification report:
 ![ClassReport_Undersampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassRepot_Undersampling.PNG)
 
+* High risk precision of 1% with a recall of 69%, giving this model an F1 score of 1%.
+* Low risk precision of 100% and a recall of 40%.
+
 
 ### Combination Sampling
 
@@ -49,6 +61,9 @@ Combination sampling confusion matrix:
 
 Combination sampling classification report:
 ![ClassReport_CombinationSampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_Combined.PNG)
+
+* High risk precision of 1% with a recall of 72%, giving this model an F1 score of 2%.
+* Low risk precision of 100% and a recall of 57%.
 
 
 ### Balanced Random Forest Classifier
@@ -62,6 +77,9 @@ Balanced random forest classifier confusion matrix:
 Balanced random forest classifier classification report:
 ![ClassReport_BRFC](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassRepot_BalancedRandomForestClassifier.PNG)
 
+* High risk precision of 3% with a recall of 70%, giving this model an F1 score of 6%.
+* Low risk precision of 100% and a recall of 87%.
+
 
 ### Easy Ensemble AdaBoost Classifier
 
@@ -73,10 +91,8 @@ Easy ensemble AdaBoost classifier confusion matrix:
 Easy ensemble AdaBoost classifier classification report:
 ![ClassReport_EEAC](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_EasyEnsembleAdaBoostClassifier.PNG)
 
-
-
-* There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models
-
+* High risk precision of 9% with a recall of 92%, giving this model an F1 score of 16%.
+* Low risk precision of 100% and a recall of 94%.
 
 
 ## Summary
