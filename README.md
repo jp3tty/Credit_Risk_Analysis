@@ -96,7 +96,4 @@ Easy ensemble AdaBoost classifier classification report:
 
 
 ## Summary
-The models used to perform the risk analysis show weak precision in determining high credit risk. 
-
-* There is a summary of the results
-* There is a recommendation on which model to use, or there is no recommendation with a justification
+All the models used to perform the risk analysis show weak precision in determining high credit risk. The best result from these machine learning models was the Easy Ensemble AdaBoost Classifier with a accuracy rate of 93% and a precision of 9% when predicting high risk candidates. The recall (or sensitivity) of this model was also the highest at 92%.
