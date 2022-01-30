@@ -9,12 +9,16 @@ The datas "loan status" was used from the "LoanStats_2019Q1" dataset to train a 
 
 ### Naive Random Oversampling
 
+The balanced accuracy of naive random oversampling is 0.65.
+
 ![CM_NaiveRandomOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_NaiveRandomOversample.PNG)
 
 ![ClassReport_NaiveRandomOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_NaiveRandomOversample.PNG)
 
 
 ### SMOTE Oversampling
+
+The balanced accuracy of SMOTE oversampling is 0.66.
 
 ![CM_SMOTEOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_SMOTE_Oversampling.PNG)
 
@@ -23,12 +27,16 @@ The datas "loan status" was used from the "LoanStats_2019Q1" dataset to train a 
 
 ### Undersampling
 
+The balanced accuracy of undersampling is 0.54.
+
 ![CM_Undersampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_Undersampling.PNG)
 
 ![ClassReport_Undersampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassRepot_Undersampling.PNG)
 
 
 ### Combination Sampling
+
+The balanced accuracy of combination sampling is 0.67.
 
 ![CM_CombinationSampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_Combined.PNG)
 
@@ -37,12 +45,16 @@ The datas "loan status" was used from the "LoanStats_2019Q1" dataset to train a 
 
 ### Balanced Random Forest Classifier
 
+The balanced accuracy of random forest classifier is 0.79.
+
 ![CM_BRFC](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_BalancedRandomForestClassifier.PNG)
 
 ![ClassReport_BRFC](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassRepot_BalancedRandomForestClassifier.PNG)
 
 
 ### Easy Ensemble AdaBoost Classifier
+
+The balanced accuracy of easy ensemble adaboost classifier is 0.93.
 
 ![CM_EEAC](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ConfusionMatrix_EasyEnsembleAdaBoostClassifier.PNG)
 
