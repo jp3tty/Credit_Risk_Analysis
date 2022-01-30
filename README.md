@@ -18,8 +18,8 @@ Naive random oversampling classification report:
 ![ClassReport_NaiveRandomOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_NaiveRandomOversample.PNG)
 
 The report shows:
-* High risk precision of 1% with a recall of 66%, giving this model an F1 score of 2%.
-* Low risk precision of 100% and a recall of 62%.
+* High risk precision of 1% with a recall of 71%, giving this model an F1 score of 2%.
+* Low risk precision of 100% and a recall of 58%.
 
 
 ### SMOTE Oversampling
@@ -33,8 +33,8 @@ SMOTE oversampling classification report:
 ![ClassReport_SMOTEOversampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_SMOTE_Oversampling.PNG)
 
 The report shows:
-* High risk precision of 1% with a recall of 61%, giving this model an F1 score of 2%.
-* Low risk precision of 100% and a recall of 69%.
+* High risk precision of 1% with a recall of 63%, giving this model an F1 score of 2%.
+* Low risk precision of 100% and a recall of 68%.
 
 
 
@@ -62,8 +62,8 @@ Combination sampling confusion matrix:
 Combination sampling classification report:
 ![ClassReport_CombinationSampling](https://github.com/jp3tty/Credit_Risk_Analysis/blob/main/Images/ClassReport_Combined.PNG)
 
-* High risk precision of 1% with a recall of 72%, giving this model an F1 score of 2%.
-* Low risk precision of 100% and a recall of 57%.
+* High risk precision of 1% with a recall of 73%, giving this model an F1 score of 2%.
+* Low risk precision of 100% and a recall of 60%.
 
 
 ### Balanced Random Forest Classifier
