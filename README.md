@@ -5,7 +5,7 @@ Machine learning is a method of data analysis that automates analytical model bu
 
 
 ## Results
-The datas "loan status" was used from the "LoanStats_2019Q1" dataset to train a six ML model for determining if a credit applicantion is considered high or low risk. Predictions were run for each and they were compared for accuracy, precision, and recall.
+"Loan status" entries were used from the "LoanStats_2019Q1" dataset to train a number of ML model for determining whether a credit applicantion should be considered high or low risk. Predictions were preformed for each and they were compared for accuracy, precision, and recall.
 
 ### Naive Random Oversampling
 
